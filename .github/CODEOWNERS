@@ -1,0 +1,6 @@
+# Global default maintainers
+*                           @org/engineering
+
+# Workflows and Security
+/.github/workflows/         @org/devops-infra
+/SECURITY.md                @org/security-leads

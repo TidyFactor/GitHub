@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GitHubAuditReport",
+  "type": "object",
+  "required": ["repository", "maturity_level", "scores", "total_score", "remediations"],
+  "properties": {
+    "repository": { "type": "string" },
+    "maturity_level": { "type": "integer", "minimum": 0, "maximum": 6 },
+    "scores": {
+      "type": "object",
+      "required": [
+        "identity_discoverability",
+        "documentation_readme",
+        "developer_experience",
+        "community_health",
+        "security_supply_chain",
+        "ci_cd_automation",
+        "governance_rulesets",
+        "issue_pr_engineering",
+        "visual_presentation"
+      ],
+      "properties": {
+        "identity_discoverability": { "type": "number", "minimum": 0, "maximum": 100 },
+        "documentation_readme": { "type": "number", "minimum": 0, "maximum": 100 },
+        "developer_experience": { "type": "number", "minimum": 0, "maximum": 100 },
+        "community_health": { "type": "number", "minimum": 0, "maximum": 100 },
+        "security_supply_chain": { "type": "number", "minimum": 0, "maximum": 100 },
+        "ci_cd_automation": { "type": "number", "minimum": 0, "maximum": 100 },
+        "governance_rulesets": { "type": "number", "minimum": 0, "maximum": 100 },
+        "issue_pr_engineering": { "type": "number", "minimum": 0, "maximum": 100 },
+        "visual_presentation": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "total_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "remediations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rule_id", "tier", "description", "action"],
+        "properties": {
+          "rule_id": { "type": "string" },
+          "tier": { "type": "string", "enum": ["CRITICAL", "HIGH", "MEDIUM", "LOW"] },
+          "description": { "type": "string" },
+          "action": { "type": "string" }
+        }
+      }
+    }
+  }
+}

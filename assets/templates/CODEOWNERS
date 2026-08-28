@@ -1,0 +1,14 @@
+# Global default maintainers
+*                           @org/engineering
+
+# Core architecture and kernel abstractions
+/src/core/                  @org/platform-core
+
+# GitHub Actions and Deployment workflows
+/.github/workflows/         @org/devops-infra @org/security-leads
+/SECURITY.md                @org/security-leads
+
+# Documentation and translations
+/docs/                      @org/documentation
+/README.md                  @org/documentation
+/README.ar.md               @org/documentation

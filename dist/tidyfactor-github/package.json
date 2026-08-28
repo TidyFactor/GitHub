@@ -1,0 +1,54 @@
+{
+  "name": "@alwkala/tidyfactor-github",
+  "version": "1.0.0",
+  "description": "TidyFactor GitHub — GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents",
+  "main": "SKILL.md",
+  "bin": {
+    "tidyfactor-github": "bin/add-skill.js",
+    "add-skill": "bin/add-skill.js",
+    "add-github-skill": "bin/add-skill.js"
+  },
+  "keywords": [
+    "tidyfactor",
+    "github",
+    "github-actions",
+    "repository-governance",
+    "devops",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "codex",
+    "repo-styling",
+    "readme-engine"
+  ],
+  "author": "TidyFactor & Alwkala <hello@tidyfactor.com> (https://alwkala.com)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TidyFactor/GitHub.git"
+  },
+  "scripts": {
+    "validate": "python tools/validate_skill.py",
+    "build": "node tools/build-skill.js",
+    "release": "python ../tools/release_skill.py ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "SKILL.md",
+    "references",
+    "assets",
+    "schemas",
+    "tools",
+    "bin",
+    "brand.json",
+    ".tidyfactor",
+    "AGENTS.md",
+    "README.md",
+    "README.ar.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

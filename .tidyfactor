@@ -1,0 +1,16 @@
+{
+  "name": "tidyfactor-github",
+  "version": "1.0.0",
+  "category": "governance",
+  "description": "TidyFactor GitHub — GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine",
+  "repository": "https://github.com/TidyFactor/GitHub",
+  "npm": "@alwkala/tidyfactor-github",
+  "compatibility": [
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "codex",
+    "windsurf"
+  ],
+  "license": "Apache-2.0"
+}

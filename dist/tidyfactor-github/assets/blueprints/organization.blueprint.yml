@@ -1,0 +1,28 @@
+organization:
+  default_repository_permission: "read"
+  members_can_create_repositories: false
+  two_factor_requirement: true
+  web_commit_signoff_required: true
+
+teams:
+  engineering:
+    privacy: "closed"
+    default_role: "member"
+    children:
+      - frontend
+      - backend
+      - platform-core
+  devops-infra:
+    privacy: "closed"
+  security-leads:
+    privacy: "closed"
+  documentation:
+    privacy: "closed"
+
+policies:
+  actions:
+    allowed_actions: "selected"
+    github_owned_allowed: true
+    verified_creators_allowed: true
+  packages:
+    default_visibility: "private"

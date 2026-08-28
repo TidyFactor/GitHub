@@ -1,0 +1,17 @@
+name: "🐛 Bug Report"
+description: "File a reproducible defect or regression"
+title: "[Bug]: "
+labels: ["type:bug", "status:triage"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "Version / Commit"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+    validations:
+      required: true

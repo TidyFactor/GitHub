@@ -1,0 +1,56 @@
+repository:
+  type: "library"
+  default_branch: "main"
+  has_issues: true
+  has_discussions: true
+  has_wiki: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  allow_merge_commit: false
+  delete_branch_on_merge: true
+
+documentation:
+  readme:
+    required: true
+    bilingual_ar: true
+    badge_limit: 5
+  license:
+    required: true
+    type: "Apache-2.0"
+  changelog:
+    required: true
+    format: "keepachangelog"
+  security_policy:
+    required: true
+  contributing:
+    required: true
+
+governance:
+  rulesets:
+    - name: "Production Main Protection"
+      target: "branch"
+      enforcement: "active"
+      rules:
+        deletion: true
+        non_fast_forward: true
+        pull_request:
+          approvals: 1
+          require_codeowner_review: true
+          require_conversation_resolution: true
+        required_status_checks:
+          strict: true
+          checks: ["CI"]
+
+security:
+  secret_scanning: "enabled"
+  secret_scanning_push_protection: "enabled"
+  dependabot_alerts: "enabled"
+  dependabot_security_updates: "enabled"
+
+automation:
+  ci_workflow:
+    required: true
+    sha_pinning: true
+    default_permissions: "contents: read"
+    concurrency_cancel: true
+    timeout_minutes: 15

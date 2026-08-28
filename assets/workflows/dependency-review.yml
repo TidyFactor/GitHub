@@ -1,0 +1,20 @@
+name: Dependency Review
+
+on: [pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-review:
+    name: Review Dependencies
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Dependency Review
+        uses: actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c # v4.3.4
+        with:
+          fail-on-severity: high
