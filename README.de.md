@@ -21,7 +21,7 @@ In Sekundenschnelle in Ihre KI-Agentenumgebung einbinden:
 
 ```bash
 # Globale Installation oder Direktstart via NPM
-npx @alwkala/tidyfactor-github
+npx @tidyfactor/cli-github
 ```
 
 Oder direkt in Ihrem KI-Coding-Assistenten aufrufen (*Google Antigravity, Claude Code, Cursor, Codex*):

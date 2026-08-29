@@ -21,7 +21,7 @@ Ajoutez cette compétence à votre environnement d'agent en quelques secondes :
 
 ```bash
 # Installation globale ou directe via NPM
-npx @alwkala/tidyfactor-github
+npx @tidyfactor/cli-github
 ```
 
 Ou appelez-la directement depuis votre assistant IA (*Google Antigravity, Claude Code, Cursor, Codex*) :

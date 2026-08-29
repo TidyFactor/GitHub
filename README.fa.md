@@ -21,7 +21,7 @@
 
 ```bash
 # نصب سراسری یا مستقیم از طریق NPM
-npx @alwkala/tidyfactor-github
+npx @tidyfactor/cli-github
 ```
 
 یا فراخوانی مستقیم درون دستیار برنامه‌نویسی هوش مصنوعی (*Google Antigravity, Claude Code, Cursor, Codex*):

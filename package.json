@@ -1,5 +1,5 @@
 {
-  "name": "@alwkala/tidyfactor-github",
+  "name": "@tidyfactor/github",
   "version": "1.3.0",
   "description": "TidyFactor GitHub — GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents",
   "main": "SKILL.md",
@@ -22,7 +22,7 @@
     "repo-styling",
     "readme-engine"
   ],
-  "author": "TidyFactor & Alwkala <hello@tidyfactor.com> (https://alwkala.com)",
+  "author": "TidyFactor <hello@tidyfactor.com> (https://tidyfactor.com)",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
