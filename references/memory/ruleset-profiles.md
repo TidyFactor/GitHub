@@ -107,3 +107,12 @@ Standard GitHub Ruleset definitions for repository and organization levels.
   ]
 }
 ```
+
+---
+
+## 4. CLI Enforcement Command
+
+Apply ruleset directly to any repository using the standard JSON payload:
+```bash
+gh api --method POST repos/{owner}/{repo}/rulesets --input ruleset_payload.json
+```
