@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: "💬 GitHub Discussions"
-    url: "https://github.com/TidyFactor/GitHub/discussions"
-    about: "Ask questions, share ideas, and discuss architecture."
-  - name: "🛡️ Security Advisory"
-    url: "https://github.com/TidyFactor/GitHub/security/advisories/new"
-    about: "Report a vulnerability privately."
