@@ -27,3 +27,5 @@ Structured blueprint for writing high-converting, developer-first README documen
 - **Table of Commands**: Must format capabilities in Markdown tables rather than giant bullet lists.
 - **Deep Reference Folding**: Deep technical specifications or long configs must use `<details><summary>Detailed Reference</summary>...</details>`.
 - **RTL Support**: Arabic README (`README.ar.md`) must wrap content in `<div align="center" dir="rtl">` header and maintain right-to-left flow.
+- **Standard Organization & License Footer**: README must conclude with a clear Organization/Support section (Website, Docs, Contact channels) and a formal open-source License attribution block.
+
