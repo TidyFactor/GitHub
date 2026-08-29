@@ -5,6 +5,14 @@ All notable changes to the `tidyfactor-github` skill will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-08-29
+
+### Added - Interactive Use Case Playbook & Ecosystem Badges
+- **Lifecycle Use Cases & Interactive Routing (`memory/use-cases.md`)**: Structured playbooks mapping 6 core developer lifecycle scenarios (Scaffolding, Governance/Rulesets, OSS Launch, CI/CD Security, README UX, and Release Protocol) with conversational decision gates.
+- **Standardized Badge Suite (`style=for-the-badge`)**: Upgraded documentation headers to feature the unified 7-badge suite with distinct Skills-LAB ecosystem and universal AI Agents compatibility badges.
+- **Organization, Support & License Footers**: Added standardized repository footers across English and Arabic documentation.
+- **Privacy & Generic Blueprint Isolation**: Ensured operational memory contains strictly generic schemas and placeholders without hardcoded private/personal data.
+
 ## [1.2.0] - 2026-08-29
 
 ### Added - Global Multi-Tier & Multi-Language Documentation Architecture
