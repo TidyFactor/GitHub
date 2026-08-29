@@ -5,7 +5,7 @@
 
 Give **Google Antigravity, Claude Code, Cursor, OpenAI Codex, or Windsurf** a comprehensive platform intelligence layer to govern, audit, secure, style, and operate GitHub organizations and repositories.
 
-[![npm version](https://img.shields.io/npm/v/@alwkala/tidyfactor-github.svg?style=for-the-badge&color=0284C7&logo=npm)](https://www.npmjs.com/package/@alwkala/tidyfactor-github)
+[![npm version](https://img.shields.io/npm/v/@tidyfactor/github.svg?style=for-the-badge&color=0284C7&logo=npm)](https://www.npmjs.com/package/@tidyfactor/github)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg?style=for-the-badge)](LICENSE)
 [![Ecosystem](https://img.shields.io/badge/TidyFactor-Skills--LAB-purple.svg?style=for-the-badge)](https://github.com/TidyFactor)
 [![Compatibility](https://img.shields.io/badge/Agents-Antigravity%20|%20Claude%20|%20Cursor%20|%20Codex-orange.svg?style=for-the-badge)](SKILL.md)
@@ -106,7 +106,7 @@ The skill enforces four prioritized rule catalogs ranking violations from `CRITI
 
 ### Quick Injection (Local Project)
 ```bash
-npx @alwkala/tidyfactor-github
+npx @tidyfactor/cli-github
 ```
 
 ### Manual Workspace Injection

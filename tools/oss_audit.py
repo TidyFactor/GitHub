@@ -47,7 +47,7 @@ def run_audit(target_dir="."):
 
     # 3. Contributor Experience (CX)
     cx_score = 0
-    contributing = root / "CONTRIBUTING.md" or (root / ".github" / "CONTRIBUTING.md")
+    contributing = (root / "CONTRIBUTING.md") if (root / "CONTRIBUTING.md").exists() else (root / ".github" / "CONTRIBUTING.md")
     if contributing.exists(): cx_score += 50
     if "setup" in readme_content.lower() or (contributing.exists() and "setup" in contributing.read_text(encoding="utf-8", errors="ignore").lower()): cx_score += 30
     if (root / "CONTRIBUTORS.md").exists() or "contributor" in readme_content.lower(): cx_score += 20
@@ -61,11 +61,11 @@ def run_audit(target_dir="."):
 
     # 5. Community Health
     comm_score = 0
-    coc = root / "CODE_OF_CONDUCT.md" or (root / ".github" / "CODE_OF_CONDUCT.md")
+    coc = (root / "CODE_OF_CONDUCT.md") if (root / "CODE_OF_CONDUCT.md").exists() else (root / ".github" / "CODE_OF_CONDUCT.md")
     if coc.exists(): comm_score += 40
     issue_templates = root / ".github" / "ISSUE_TEMPLATE"
     if issue_templates.exists() and len(list(issue_templates.glob("*"))) > 0: comm_score += 40
-    pr_template = root / ".github" / "pull_request_template.md" or (root / "pull_request_template.md")
+    pr_template = (root / ".github" / "PULL_REQUEST_TEMPLATE.md") if (root / ".github" / "PULL_REQUEST_TEMPLATE.md").exists() else (root / "PULL_REQUEST_TEMPLATE.md")
     if pr_template.exists(): comm_score += 20
     scores["community"] = comm_score
     if comm_score < 70:
@@ -73,23 +73,23 @@ def run_audit(target_dir="."):
 
     # 6. Governance & Decisions
     gov_score = 0
-    gov_file = root / "GOVERNANCE.md" or (root / ".github" / "GOVERNANCE.md")
+    gov_file = (root / "GOVERNANCE.md") if (root / "GOVERNANCE.md").exists() else (root / ".github" / "GOVERNANCE.md")
     if gov_file.exists(): gov_score += 50
-    if (root / "docs" / "rfcs").exists() or (root / "docs" / "adrs").exists(): gov_score += 50
+    if (root / "docs" / "rfcs").exists() or (root / "docs" / "adrs").exists() or (root / "DISTRIBUTION.md").exists(): gov_score += 50
     scores["governance"] = gov_score
     if gov_score < 50:
         treatment.append({"priority": "MEDIUM", "category": "Governance", "action": "Scaffold GOVERNANCE.md and RFC pipeline", "remedy_command": "/oss governance"})
 
     # 7. Maintainer Sustainability
     sust_score = 0
-    codeowners = root / "CODEOWNERS" or (root / ".github" / "CODEOWNERS")
+    codeowners = (root / "CODEOWNERS") if (root / "CODEOWNERS").exists() else (root / ".github" / "CODEOWNERS")
     if codeowners.exists(): sust_score += 50
     if (root / ".github" / "dependabot.yml").exists(): sust_score += 50
     scores["sustainability"] = sust_score
 
     # 8. Supply Chain Security
     sec_score = 0
-    sec_file = root / "SECURITY.md" or (root / ".github" / "SECURITY.md")
+    sec_file = (root / "SECURITY.md") if (root / "SECURITY.md").exists() else (root / ".github" / "SECURITY.md")
     if sec_file.exists(): sec_score += 50
     workflows = list((root / ".github" / "workflows").glob("*.yml")) if (root / ".github" / "workflows").exists() else []
     if len(workflows) > 0: sec_score += 50

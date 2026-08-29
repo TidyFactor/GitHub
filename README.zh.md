@@ -21,7 +21,7 @@
 
 ```bash
 # 全局安装或通过 NPM 直接运行
-npx @alwkala/tidyfactor-github
+npx @tidyfactor/cli-github
 ```
 
 或在 AI 编码助手 (*Google Antigravity, Claude Code, Cursor, Codex*) 中直接调用：
