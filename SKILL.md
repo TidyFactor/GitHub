@@ -1,11 +1,11 @@
 ---
 name: tidyfactor-github
-description: "GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine with Contextual Decision Layer (CDL). Inspect, govern, secure, automate, style, and manage repositories, organizations, rulesets, actions, issues, PRs, and README UX. Trigger on commands 'brief', 'audit', 'org', 'repo', 'branch', 'ruleset', 'issue', 'pr', 'action', 'security', 'community', 'readme', 'style', 'release', 'project', 'discover', 'incident', 'blueprint', or requests for GitHub repository management, repo audit, ruleset governance, GitHub Actions CI, or README optimization."
+description: "GitHub Platform Operations, Open Source Community & Governance Engine with Contextual Decision Layer (CDL). Inspect, govern, secure, automate, style, and manage repositories, organizations, rulesets, contributor experience (CX), good first issues, RFCs/ADRs, actions, and README UX. Trigger on commands 'brief', 'audit', 'oss', 'cx', 'gfi', 'rfc', 'org', 'repo', 'branch', 'ruleset', 'issue', 'pr', 'action', 'security', 'community', 'readme', 'style', 'release', 'project', 'discover', 'incident', 'blueprint', or requests for GitHub repo management, OSS readiness, rulesets, or contributor onboarding."
 ---
 
 # TidyFactor GitHub
 
-A command dispatcher for GitHub Platform Operations, Governance, Content, Experience & Ecosystem Intelligence. This router declares commands and workflows without performing execution directly.
+A command dispatcher for GitHub Platform Operations, Open Source Community, Governance, Content, Experience & Ecosystem Intelligence. This router declares commands and workflows without performing execution directly.
 
 ## Commands
 
@@ -13,6 +13,10 @@ A command dispatcher for GitHub Platform Operations, Governance, Content, Experi
 |---|---|---|
 | Strategic Discovery & Baseline Architecture | `references/commands/brief.md` | `workflows/brief-discovery.md` + `memory/decision-points.md` |
 | 9-Dimension Repository & Org Health Audit | `references/commands/audit.md` | `workflows/run-repo-audit.md` + `workflows/run-org-audit.md` + `memory/maturity-model.md` |
+| 10-Axis Open Source Readiness & Doctor | `references/commands/oss.md` | `workflows/run-oss-audit.md` + `memory/oss-readiness-rubric.md` + `memory/positioning-framework.md` |
+| Contributor Experience (CX) & Onboarding | `references/commands/cx.md` | `workflows/optimize-cx-onboarding.md` + `memory/cx-framework.md` |
+| Good First Issue Discovery & Scoping | `references/commands/gfi.md` | `workflows/triage-good-first-issues.md` + `memory/cx-framework.md` |
+| Request for Comments (RFC) & Decisions (ADR) | `references/commands/rfc.md` | `workflows/author-rfc-adr.md` + `memory/oss-governance-models.md` |
 | Org Architecture, Teams & Permission Matrix | `references/commands/org.md` | `workflows/setup-org-hierarchy.md` + `memory/permission-matrix.md` |
 | Repository Lifecycle & Factory Scaffolding | `references/commands/repo.md` | `workflows/scaffold-repository.md` + `memory/maturity-model.md` |
 | Branch Strategies, Naming & Flow Models | `references/commands/branch.md` | `workflows/configure-rulesets.md` + `memory/branch-strategies.md` |
