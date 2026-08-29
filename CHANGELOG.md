@@ -5,6 +5,23 @@ All notable changes to the `tidyfactor-github` skill will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-08-29
+
+### Added - Global Multi-Tier & Multi-Language Documentation Architecture
+- **Two-Tier Documentation Strategy**: Formalized separation between Canonical Global Technical Documentation (`README.md` SSOT) and First-Class Market Localizations.
+- **Universal Multi-Language Switcher**: Standardized 8-language interactive header across all documentation files (`EN`, `AR`, `FA`, `ES`, `PT`, `ZH`, `DE`, `FR`).
+- **First-Class Localized Developer Adoption Guides**:
+  - `README.es.md` (Spanish 🇪🇸): LATAM & Spain quickstart, command matrix, and use cases.
+  - `README.pt.md` (Portuguese 🇧🇷): Brazil developer ecosystem onboarding and practical recipes.
+  - `README.fa.md` (Persian 🇮🇷): Native RTL Persian guide for AI agents and GitHub operations.
+  - `README.zh.md` (Simplified Chinese 🇨🇳): Asian open-source and agentic AI developer scale guide.
+  - `README.de.md` (German 🇩🇪): DACH enterprise governance, security baseline, and compliance.
+  - `README.fr.md` (French 🇫🇷): Francophone agency workflow automation and DX.
+- **Tooling & Validation Pipeline Upgrades**:
+  - Automated multi-language cross-link verification in `tools/validate_skill.py`.
+  - Automatic multi-language asset bundling in `tools/build-skill.js`.
+  - Updated `package.json` distribution manifest.
+
 ## [1.1.0] - 2026-08-29
 
 ### Added - Open Source & Community Governance Engine

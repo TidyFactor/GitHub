@@ -107,6 +107,20 @@ def main():
                 if file.name not in ["release_suite.py", "audit_all_skills.py"]:
                     errors.append(f"Machine-specific absolute path found in: {file.relative_to(root)}")
 
+    # 6. Check Multi-Language Navigation Links
+    print("\n[6] Checking multi-language documentation consistency...")
+    locales = ["README.md", "README.ar.md", "README.fa.md", "README.es.md", "README.pt.md", "README.zh.md", "README.de.md", "README.fr.md"]
+    for loc in locales:
+        loc_path = root / loc
+        if loc_path.exists():
+            loc_text = loc_path.read_text(encoding="utf-8")
+            if "README.md" not in loc_text or "README.ar.md" not in loc_text:
+                errors.append(f"{loc} is missing cross-language switcher links.")
+            else:
+                print(f"  [OK] {loc} contains valid language switcher.")
+        else:
+            errors.append(f"Missing expected localized doc file: {loc}")
+
     print("\n" + "=" * 60)
     if errors:
         print(f"[FAIL] {len(errors)} validation error(s) found:")
