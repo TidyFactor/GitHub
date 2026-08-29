@@ -4,7 +4,7 @@
 
 **GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)](package.json)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg?style=flat-square)](package.json)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg?style=flat-square)](LICENSE)
 [![Ecosystem](https://img.shields.io/badge/TidyFactor-Skills--LAB-purple.svg?style=flat-square)](https://github.com/TidyFactor)
 [![Compatibility](https://img.shields.io/badge/Agents-Antigravity%20|%20Claude%20|%20Cursor%20|%20Codex-orange.svg?style=flat-square)](SKILL.md)

@@ -5,7 +5,7 @@ All notable changes to the `tidyfactor-github` skill will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] - Unreleased
+## [1.1.0] - 2026-08-29
 
 ### Added - Open Source & Community Governance Engine
 - **Open Source Project Readiness (10-Axis Audit)**: Standardized health audit evaluating Identity, Documentation, Onboarding (CX), Contribution, Community, Governance, Security, Releases, Maintainability, and Sustainability (0-100 score).
