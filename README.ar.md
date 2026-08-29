@@ -1,13 +1,16 @@
 <div align="center" dir="rtl">
 
-# تايدي فاكتور جيت هب (TidyFactor GitHub)
+# 🐙 تايدي فاكتور جيت هب — TidyFactor GitHub `v1.2.0`
+### محرك تشغيل، حوكمة، محتوى، تجربة بصرية، وذكاء منصة GitHub للوكلاء البرمجيين
 
-**محرك تشغيل، حوكمة، محتوى، تجربة بصرية، وذكاء منصة GitHub للوكلاء البرمجيين**
+امنح **Google Antigravity أو Claude Code أو Cursor أو Codex أو Windsurf** طبقة ذكاء وتشغيل متكاملة لحوكمة وتأمين وتنسيق وتشغيل منظمات ومستودعات GitHub بأعلى المعايير الاحترافية.
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg?style=flat-square)](package.json)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green.svg?style=flat-square)](LICENSE)
-[![Ecosystem](https://img.shields.io/badge/TidyFactor-Skills--LAB-purple.svg?style=flat-square)](https://github.com/TidyFactor)
-[![Compatibility](https://img.shields.io/badge/Agents-Antigravity%20|%20Claude%20|%20Cursor%20|%20Codex-orange.svg?style=flat-square)](SKILL.md)
+[![npm version](https://img.shields.io/npm/v/@alwkala/tidyfactor-github.svg?style=for-the-badge&color=0284C7&logo=npm)](https://www.npmjs.com/package/@alwkala/tidyfactor-github)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg?style=for-the-badge)](LICENSE)
+[![GitHub Rulesets](https://img.shields.io/badge/Rulesets-Protected-success.svg?style=for-the-badge&logo=github)](https://github.com/TidyFactor/GitHub)
+[![RTL Native Arabic](https://img.shields.io/badge/RTL-Native%20Arabic-emerald.svg?style=for-the-badge)](README.ar.md)
+[![Architect Score](https://img.shields.io/badge/Architect%20Score-8%2F8%20Pass%20(100%25)-green.svg?style=for-the-badge)](#-معايير-الحوكمة-والجودة)
+[![AI Agents Compatible](https://img.shields.io/badge/AI%20Agents-Universal%20Compatibility-4285F4.svg?style=for-the-badge)](SKILL.md)
 
 [ English ](README.md) • [ العربية ](README.ar.md) • [ فارسی ](README.fa.md) • [ Español ](README.es.md) • [ Português ](README.pt.md) • [ 简体中文 ](README.zh.md) • [ Deutsch ](README.de.md) • [ Français ](README.fr.md)
 
