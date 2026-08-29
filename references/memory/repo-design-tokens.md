@@ -37,7 +37,7 @@ Design tokens, badge formatting, and Open Graph card dimensions for GitHub repos
 [![Ecosystem](https://img.shields.io/badge/<Ecosystem>-<Tier>-purple.svg?style=for-the-badge)](<ecosystem-link>)
 [![Compatibility](https://img.shields.io/badge/Agents-<Agent1>%20|%20<Agent2>%20|%20<Agent3>-orange.svg?style=for-the-badge)](SKILL.md)
 [![RTL Native Arabic](https://img.shields.io/badge/RTL-Native%20Arabic-emerald.svg?style=for-the-badge)](README.ar.md)
-[![Architect Score](https://img.shields.io/badge/Architect%20Score-8%2F8%20Pass%20(100%25)-green.svg?style=for-the-badge)](#-governance--quality-bar)
+[![Architect Score](https://img.shields.io/badge/Architect%20Score-13%2F13%20Pass%20(100%25)-green.svg?style=for-the-badge)](#-governance--quality-bar)
 [![AI Agents Compatible](https://img.shields.io/badge/AI%20Agents-Universal%20Compatibility-4285F4.svg?style=for-the-badge)](SKILL.md)
 ```
 
