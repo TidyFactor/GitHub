@@ -1,6 +1,6 @@
 <div align="center" dir="rtl">
 
-# 🐙 تايدي فاكتور جيت هب — TidyFactor GitHub `v1.3.0`
+# 🐙 تايدي فاكتور جيت هب — TidyFactor GitHub `v1.3.1`
 ### محرك تشغيل، حوكمة، محتوى، تجربة بصرية، وذكاء منصة GitHub للوكلاء البرمجيين
 
 امنح **Google Antigravity أو Claude Code أو Cursor أو Codex أو Windsurf** طبقة ذكاء وتشغيل متكاملة لحوكمة وتأمين وتنسيق وتشغيل منظمات ومستودعات GitHub بأعلى المعايير الاحترافية.

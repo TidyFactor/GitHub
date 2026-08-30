@@ -5,6 +5,14 @@ All notable changes to the `tidyfactor-github` skill will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2026-08-30
+
+### Added / Improved
+- **Positioning Framework**: Added Lifecycle Positioning Taxonomy comparing Pre-Code Constraint layers (e.g. VibeCurb) vs In-Codebase Production engines (e.g. Styler).
+- **Anti-Slop Playbook**: Documented manifesto-first and visual proof strategies for developer SEO.
+
+---
+
 ## [1.3.0] - 2026-08-29
 
 ### Added - Interactive Use Case Playbook & Ecosystem Badges

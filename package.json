@@ -1,7 +1,7 @@
 {
   "name": "@tidyfactor/github",
-  "version": "1.3.0",
-  "description": "TidyFactor GitHub — GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents",
+  "version": "1.3.1",
+  "description": "TidyFactor GitHub \u2014 GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents",
   "main": "SKILL.md",
   "bin": {
     "tidyfactor-github": "bin/add-skill.js",
