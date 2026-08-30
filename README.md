@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐙 TidyFactor GitHub `v1.3.0`
+# 🐙 TidyFactor GitHub `v1.3.1`
 ### GitHub Platform Operations, Governance, Content, Experience & Intelligence Engine for AI Coding Agents
 
 Give **Google Antigravity, Claude Code, Cursor, OpenAI Codex, or Windsurf** a comprehensive platform intelligence layer to govern, audit, secure, style, and operate GitHub organizations and repositories.
