@@ -102,11 +102,30 @@ The skill enforces four prioritized rule catalogs ranking violations from `CRITI
 
 ---
 
-## Installation & Injection
+## 🚀 Installation & Quick Start
 
-### Quick Injection (Local Project)
+Choose your preferred installation method:
+
+### Option A: Via TidyFactor CLI (Recommended)
+Install directly using the official ecosystem package runner into your active workspace:
 ```bash
-npx @tidyfactor/cli-github
+npx @tidyfactor/cli add github
+```
+*Or if you have the CLI installed globally (`npm i -g @tidyfactor/cli`):*
+```bash
+tidyfactor add github
+```
+
+### Option B: Via Open Agent Skills Ecosystem (skills.sh / Vercel Labs)
+Install using the universal multi-agent standard across all supported IDEs (Cursor, Antigravity, Claude Code, Windsurf, Trae, Codex):
+```bash
+npx skills add tidyfactor/github
+```
+
+### Option C: Standalone Zero-Dependency Runner (NPM Direct)
+Run the dedicated skill installer directly with automatic cache invalidation:
+```bash
+npx @tidyfactor/github@latest
 ```
 
 ### Manual Workspace Injection
